@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+</head>
+<body>
+
+<h1>Contact Us</h1>
+
+<form>
+    <fieldset>
+        <legend>Contact Information</legend>
+
+        <label for="fullname">Full Name:</label><br>
+        <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email address" required><br><br>
+
+        <label for="phone">Phone:</label><br>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number"><br><br>
+
+        <label for="subject">Subject:</label><br>
+        <select id="subject" name="subject">
+            <option value="">--Select a subject--</option>
+            <option value="general">General Inquiry</option>
+            <option value="support">Support</option>
+            <option value="feedback">Feedback</option>
+        </select><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" placeholder="Write your message here..." rows="5" minlength="50" required></textarea><br><br>
+
+        <label>
+            <input type="checkbox" name="newsletter">
+            Subscribe to our newsletter
+        </label><br><br>
+
+        <button type="submit">Submit</button>
+
+    </fieldset>
+</form>
+
+</body>
+</html>
