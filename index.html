@@ -1,32 +1,41 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daisy Wairimu - About Me</title>
+    <title>Home</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        nav ul { list-style: none; padding: 0; display: flex; gap: 10px; }
+        nav a { text-decoration: none; color: black; padding: 5px 10px; }
+        nav a.current { background-color: #ddd; border-radius: 4px; }
+        header { margin-bottom: 20px; }
+        section { margin-top: 20px; }
+    </style>
 </head>
 <body>
-    <!-- Main heading -->
-    <h1>Daisy Wairimu</h1>
 
-    <!-- Introduction paragraph -->
-    <p>Hi! I'm Daisy, a curious learner who loves exploring new new ideas in web development.</p>
-
-    <!-- Image -->
-    <img src="https://via.placeholder.com/150" alt="Placeholder Image">
-
-    <!-- Hobbies / Interests list -->
-    <h2>My Hobbies</h2>
+<!-- Navigation -->
+<nav>
     <ul>
-        <li>Reading novels</li>
-        <li>Singing</li>
-        <li>Travelling</li>
+        <li><a href="index.html" class="current">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
     </ul>
+</nav>
 
-    <!-- Favorite website link -->
-    <p>Check out my favorite website: <a href="https://www.wikipedia.org" target="_blank">Wikipedia</a></p>
+<!-- Hero Section -->
+<header>
+    <h1>Hi, I'm Daisy</h1>
+    <p> Passionate About Learning Programming</p>
+</header>
 
-    <!-- Contact email -->
-    <p>Contact me: <a href="mailto:daisywairimu15@gmail.com">daisywairimu15@gmail.com</a></p>
+<!-- Brief Introduction -->
+<main>
+    <section>
+        <p>Welcome to my portfolio! I enjoy reading novels, exploring new places, and learning programming. Here you can learn more about me, see my projects, and contact me.</p>
+    </section>
+</main>
+
 </body>
-</html>
+</html> 
